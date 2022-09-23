@@ -24,7 +24,7 @@ body {
   box-sizing: border-box;
   padding: 0 112px;
   position: relative;
-}
+  }
 
 h1 {
     font-size: 35px;
@@ -211,7 +211,7 @@ a:hover {
     display: none;
     justify-content: left;
     /*font-size: 70%; */
-    font-size: 15px;
+    font-size: 13px;
 }
 .bord-h1-h2 {
   text-decoration: none;
@@ -244,12 +244,12 @@ a:hover {
 .projetos_borda {
     margin-bottom: 20px;
 }
-/*.footer {
+footer {
     font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+} 
 
 
 @media screen and (max-width: 600px) {
@@ -262,8 +262,11 @@ a:hover {
   .info {
     display: flex;
   }
+  .social-media {
+    font-size: 12px;
+  }
   .social-media a {
-    padding: 5px 2px;
+    padding: 10px 5px;
     margin-top: 180px;
     min-width: 2rem;
   }
@@ -273,7 +276,7 @@ a:hover {
   }
   .projetos_borda a {
     border: 1px solid #1E1E2A;
-}
+  }
   .menu-items ul li a {
     letter-spacing: 2px;
     font-size: 10px;
