@@ -242,6 +242,12 @@ a:hover {
 .projetos_borda {
     margin-bottom: 20px;
 }
+/*.footer {
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 
 @media screen and (max-width: 600px) {
