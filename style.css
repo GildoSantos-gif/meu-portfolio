@@ -203,13 +203,15 @@ a:hover {
 
 .info {
     background-color: aquamarine;
-    height: 3vh;
+    /*height: 4vh;*/
+    height: 4vh;
     width: 100vw;
     color: black;
     background-origin: padding-box;
     display: none;
     justify-content: left;
-    font-size: 70%;
+    /*font-size: 70%; */
+    font-size: 15px;
 }
 .bord-h1-h2 {
   text-decoration: none;
@@ -261,9 +263,11 @@ a:hover {
     display: flex;
   }
   .social-media a {
-    padding: 10px 5px;
-    margin-top: 120px;
+    padding: 5px 2px;
+    margin-top: 180px;
+    min-width: 2rem;
   }
+  /*padding: 10px 5 px, */
   .bord-h1-h2 {
     display: none;
   }
